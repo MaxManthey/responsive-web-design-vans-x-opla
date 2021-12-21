@@ -1,8 +1,28 @@
+/****** 
+Tags
+******/
+
 body {
   background-color: #1b0243;
+  height: 100%;
   color: white;
   margin: 2% 3%;
+  font-family: "Roboto", sans-serif;
 }
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3.5rem;
+  letter-spacing: 4px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/****** 
+IDs
+******/
 
 #nav-logo-wrapper {
   display: flex;
@@ -19,8 +39,70 @@ body {
 #main-image {
   max-width: 40%;
   height: auto;
+  margin-left: -20%;
 }
 
-#main-text {
-  /* margin-top: ; */
+#discorver-variants-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+#variants-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+#variants-pic {
+  width: 35%;
+}
+
+/****** 
+Classes
+******/
+
+.main-text {
+  margin-bottom: -10%;
+  padding-bottom: -10%;
+}
+
+.screen {
+  height: 100vh;
+}
+
+.info-text {
+  margin: 25% 3%;
+}
+
+.shoe-pic {
+  width: 45%;
+}
+
+.slogan-pic-left {
+  display: flex;
+  margin-bottom: 25%;
+}
+
+.slogan-text-wrapper {
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.variants-info-text {
+  margin-left: -20%;
+  text-align: center;
+}
+
+.variants-text {
+  max-width: 20%;
+}
+
+.gradient-btn {
+  width: 14vw;
+  height: 9vh;
+  background-image: linear-gradient(130deg, #e041e6, #3100ff);
+  border: 0px solid;
+  color: white;
+  font-size: 1.5rem;
 }
