@@ -57,6 +57,18 @@ IDs
   width: 35%;
 }
 
+#last-img {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  padding-left: -50vw;
+  margin-right: -50vw;
+  padding-right: -50vw;
+}
+
 /****** 
 Classes
 ******/
@@ -101,8 +113,31 @@ Classes
 .gradient-btn {
   width: 14vw;
   height: 9vh;
-  background-image: linear-gradient(130deg, #e041e6, #3100ff);
+  background-image: linear-gradient(140deg, #e041e6 32%, #2a02b8 85%);
   border: 0px solid;
   color: white;
   font-size: 1.5rem;
+}
+
+.fun-section-top {
+  margin-top: 20%;
+}
+
+.fun-section-wrapper :not(:last-child) {
+  margin-bottom: -3%;
+  padding: -3%;
+}
+
+.fun-text {
+  text-align: center;
+}
+
+.last-section {
+  margin-top: 20%;
+  height: 70vh;
+}
+
+.last-section-text {
+  margin-bottom: -3%;
+  padding-bottom: -3%;
 }
