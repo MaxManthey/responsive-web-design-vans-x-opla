@@ -8,6 +8,11 @@ body {
   color: white;
   margin: 2% 3%;
   font-family: "Roboto", sans-serif;
+  /* background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='100vh' width='100vw'><text x='0' y='15' fill='red' font-size='20'>I love SVG!</text></svg>"); */
+  background-image: url("assets/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 h1 {
@@ -23,10 +28,55 @@ p {
 /****** 
 IDs
 ******/
+#menue-content {
+  display: none;
+}
+
+#main-content {
+  display: block;
+}
 
 #nav-logo-wrapper {
+  position: fixed;
+  width: 95%;
   display: flex;
   justify-content: space-between;
+}
+
+#burger-menue:hover > #svg-upper {
+  y: 0;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#burger-menue:hover > #svg-lower {
+  y: 95;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#burger-menue > #svg-upper {
+  y: 7;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#burger-menue > #svg-lower {
+  y: 88;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 #main-wrapper {
