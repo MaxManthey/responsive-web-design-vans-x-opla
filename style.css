@@ -25,6 +25,11 @@ p {
   font-size: 1.5rem;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /****** 
 IDs
 ******/
@@ -117,6 +122,28 @@ IDs
   padding-left: -50vw;
   margin-right: -50vw;
   padding-right: -50vw;
+}
+
+#menue-nav-logo-wrapper {
+  position: fixed;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#menue-options-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 20%; */
+}
+
+.menue-options {
+  font-size: 5rem;
+}
+
+.menue-options:hover {
+  color: #e041e6;
 }
 
 /****** 
