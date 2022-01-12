@@ -7,3 +7,7 @@ function closeMenu(e){
     document.getElementById('main-content').style.display = 'block';
     document.getElementById('menue-content').style.display = 'none';
 }
+
+function replaceImg(newSrc){
+    document.getElementById('variants-pic').setAttribute("src", newSrc)
+}
