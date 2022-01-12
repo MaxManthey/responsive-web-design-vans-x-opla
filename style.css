@@ -84,7 +84,6 @@ IDs
 }
 
 #main-wrapper {
-  /* margin-top: 5%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -115,13 +114,6 @@ IDs
   width: 100vw;
   height: 100vh;
   margin-left: -3vw;
-  /* position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  padding-left: -50vw;
-  margin-right: -50vw;
-  padding-right: -50vw; */
 }
 
 #menue-nav-logo-wrapper {
@@ -135,7 +127,7 @@ IDs
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-top: 20%; */
+  justify-content: center;
 }
 
 .menue-options {
@@ -217,4 +209,94 @@ Classes
 .last-section-text {
   margin-bottom: -3%;
   padding-bottom: -3%;
+}
+
+@media screen and (max-width: 1100px) {
+  /****** 
+  Tags
+  ******/
+  h1 {
+    font-size: 5rem;
+  }
+  p {
+    font-size: 3rem;
+  }
+
+  /****** 
+  IDs
+  ******/
+  #burger-menue {
+    width: 90px;
+    height: 90px;
+    margin-top: 3%;
+    margin-right: 3%;
+  }
+  #close-menue {
+    width: 90px;
+    height: 90px;
+  }
+  #menue-options-wrapper {
+  }
+
+  #main-image {
+    max-width: 70%;
+    height: auto;
+    margin-left: -15%;
+    margin-top: 20vh;
+  }
+  #main-text-wrapper {
+    margin-top: 10vh;
+  }
+
+  /****** 
+  Classes
+  ******/
+  .logo {
+    width: 180px;
+    height: 180px;
+  }
+  .logo-circle {
+    cx: 90;
+    cy: 90;
+    r: 86;
+  }
+  .logo-text {
+    font-size: 2.6rem;
+  }
+
+  .screen {
+    height: auto;
+  }
+
+  .info-text {
+    margin-top: 20vh;
+    margin-bottom: 16vh;
+  }
+
+  .slogan-pic-left {
+    display: flex;
+    flex-direction: column;
+  }
+  .shoe-pic {
+    width: 100%;
+    margin-left: 3%;
+  }
+
+  .mid-section-text {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+  }
+
+  .gradient-btn {
+    width: 50vw;
+    height: 8vh;
+    background-image: linear-gradient(140deg, #e041e6 32%, #2a02b8 85%);
+    border: 0px solid;
+    color: white;
+    font-size: 4rem;
+  }
+
+  .last-section {
+    margin-bottom: 30vh;
+  }
 }
