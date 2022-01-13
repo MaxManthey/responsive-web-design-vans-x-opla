@@ -112,7 +112,8 @@ IDs
 
 #last-img {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
+  /* height: 60vw; */
   margin-left: -3vw;
 }
 
@@ -235,17 +236,32 @@ Classes
     width: 90px;
     height: 90px;
   }
-  #menue-options-wrapper {
-  }
 
+  #main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   #main-image {
     max-width: 70%;
     height: auto;
-    margin-left: -15%;
+    margin-left: -13%;
     margin-top: 20vh;
   }
   #main-text-wrapper {
     margin-top: 10vh;
+    margin-right: 0%;
+    padding-left: 0%;
+  }
+
+  #last-img {
+    width: 132%;
+    height: 60vw;
+    margin-left: -3vw;
+  }
+
+  #discorver-variants-title {
+    margin-left: 20%;
   }
 
   /****** 
@@ -261,7 +277,7 @@ Classes
     r: 86;
   }
   .logo-text {
-    font-size: 2.6rem;
+    font-size: 40px;
   }
 
   .screen {
@@ -276,20 +292,37 @@ Classes
   .slogan-pic-left {
     display: flex;
     flex-direction: column;
+    margin-bottom: 15vh;
   }
   .shoe-pic {
-    width: 100%;
+    width: 120%;
     margin-left: 3%;
   }
 
   .mid-section-text {
     margin-top: 15vh;
     margin-bottom: 15vh;
+    margin-left: 30%;
+  }
+
+  .variants-pic-mobile {
+    width: 125%;
+  }
+  .variants-info-text {
+    margin-left: 27%;
+    text-align: center;
+  }
+  .shop-btn {
+    margin-left: 38%;
+    margin-bottom: 10vh;
+  }
+  .variants-possible {
+    margin-left: 45%;
   }
 
   .gradient-btn {
     width: 50vw;
-    height: 8vh;
+    height: 15vw;
     background-image: linear-gradient(140deg, #e041e6 32%, #2a02b8 85%);
     border: 0px solid;
     color: white;

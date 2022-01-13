@@ -11,3 +11,16 @@ function closeMenu(e){
 function replaceImg(newSrc){
     document.getElementById('variants-pic').setAttribute("src", newSrc)
 }
+
+function changeVariants() {
+    if(window.outerWidth <= 1100) {
+        document.getElementById('variants').style.display = 'none';
+        document.getElementById('variants-mobile').style.display = 'block';
+    } else {
+        document.getElementById('variants').style.display = 'block';
+        document.getElementById('variants-mobile').style.display = 'none';
+    }
+  }
+  
+  window.onresize = changeVariants;
+  setTimeout(() => changeVariants(), 500);
